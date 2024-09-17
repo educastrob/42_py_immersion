@@ -5,6 +5,8 @@ import re
 import unicodedata
 from bs4 import BeautifulSoup
 
+#### LEMBRAR DE CRIAR REQUIREMENTS.TXT ####
+
 def request_wikipedia(search_term):
     """
     Faz uma busca na Wikipédia e salva o resultado em um arquivo.
