@@ -2,10 +2,6 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 
-def should_include_title(title):
-    # Adicione aqui a lógica para determinar se o título deve ser incluído
-    # Por exemplo, você pode excluir títulos que contenham certas palavras
-    return True
 
 def roads_to_philosophy(search_term):
     visited_articles = set()
@@ -15,15 +11,15 @@ def roads_to_philosophy(search_term):
     while True:
         try:
             response = requests.get(current_url)
-            response.raise_for_status()  # Raise an exception for error HTTP statuses
+            response.raise_for_status()
 
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Encontrar todos os links na área de conteúdo principal
+            # Encontra todos os links na área de conteúdo principal
             links = []
             for link in soup.select('#mw-content-text p a'):
                 link_title = link.get('title')
-                if link_title and should_include_title(link_title):
+                if link_title:
                     links.append(link)
 
             if links:
