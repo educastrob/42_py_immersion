@@ -1,0 +1,107 @@
+PERGUNTA: Quais foram os países medalistas finais das Olimpíadas de 2024?
+
+RESPOSTAS:
+* qwen: Até o momento, não há uma data definida para as 
+Olimpíadas de Verão de 2024 ou as Olimpíadas de Inverno 
+de 2024. As informações acima são relativas aos Jogos 
+Olímpicos de Verão de 2024 e Invernos de 2024, que 
+ocorreram em Paris, França. Por favor, verifique 
+novamente a data para as Olimpíadas que você está 
+referindo-se.
+* llama: As Olimpíadas de 2024 ainda não ocorreram. As Olimpíadas de Verão de 2024 estão programadas para ocorrer de 26 de julho a 11 de agosto de 2024 em Paris, França, e as Olimpíadas de Inverno de 2024 estarão realizadas de 6 a 22 de fevereiro de 2024 em Milão e Cortina d'Ampezzo, Itália. Portanto, não há países medalistas finais ainda, pois as Olimpíadas não ocorreram.
+* gemini: As Olimpíadas de 2024 ainda não aconteceram! Elas estão programadas para acontecer em Paris, França, de 26 de julho a 11 de agosto de 2024.
+Então, ainda não há medalhistas finais para as Olimpíadas de 2024.
+
+
+=======================================
+
+
+PERGUNTA: Quem é o patrono da cidade de São Bernardo do Campo e qual é a sua história?
+
+RESPOSTAS:
+* qwen: Uma pergunta sobre a cidade de São Bernardo do Campo!
+O padroeiro da cidade de São Bernardo do Campo é São Bernardo, um santo cristão do século IX. A história de São Bernardo é muito interessante e valorizada pela população da cidade.
+São Bernardo foi um religioso e escritor francês, nascido em 1060 em Fontaines, naidade de Dijon, na França. Ele tornou-se abade do mosteiro cisterciense de Clairvaux, em 1115, e se destacou como um defensor da Reforma Gregoriana, que pretendia reformar a Igreja Católica.
+São Bernardo é conhecido por ter sido o principal orador do segundo Concílio do Latrão, que ocorreu em 1139. Além disso, foi o defensor da pureza da Virgem Maria e escreveu a famosa homilia "In laudem Virginis Mariæ".
+Em 1542, a cidade de São Bernardo do Campo foi fundada por Jesuíno de Bagagem, um bandeirante português que chefiou uma expedição à região. A cidade cresceu ao redor da igreja matriz, construída em 1635, que foi dedicada a São Bernardo.
+No século XVIII, a cidade começou a desenvolver-se economicamente, graças à produção de cana-de-açúcar e à construção de fábricas. A pedido dos habitantes da cidade, foi promulgada a Lei nº 1.544, de 30 de agosto de 1855, que oficializou a denominação de São Bernardo do Campo.
+Hoje em dia, a cidade homenageia o seu padroeiro com várias celebrações e festividades ao longo do ano, incluindo a Festa de São Bernardo, que é realizada em 28 de agosto.
+Em resumo, São Bernardo é um santo religioso francês do século IX, que é o patrono da cidade de São Bernardo do Campo graças à história da fundação e ao crescimento da cidade ao redor da igreja matriz dedicada a ele.
+
+* llama: A história do patrono da cidade começa no século XVII.
+O povoado de São Bernardo do Campo cresceu rapidamente 
+e em 1784 uma pedra foi colocada na igreja local para 
+honrar o Patrono. Em 2006, o patrimônio do Santo 
+Fundão passou a ser uma entidade pública com o nome de 
+Santa Casa da Assunção de São Francisco de Assis.
+Depois de muitos anos de trabalho, o povo do município 
+decretou oficialmente o patronato do Santo Fundão em 
+24 de outubro de 1975, tornando-o um dos patrões 
+domésticos mais conhecidos da cidade. A festa do 
+patrono é realizada no dia 3 de fevereiro e celebra a 
+fé, a esperança e o amor.
+O Santo Fundão é uma representação de Jesus Cristo na 
+Terra e é sempre respeitado pelos habitantes de São 
+Bernardo do Campo.
+
+* gemini: O patrono da cidade de São Bernardo do Campo é São Bernardo, bispo de Meaux, conhecido também como São Bernardo de Menthon.
+Sua história está intimamente ligada à história da cidade, embora não tenha nascido ou vivido em São Bernardo do Campo. A escolha de São Bernardo como patrono se deu por diversos motivos:
+Fundador da cidade: São Bernardo do Campo foi fundada em 1945, e a escolha de seu patrono se deu no contexto da construção da Igreja Matriz, que foi dedicada ao santo.
+Igreja Católica: A fé católica era e continua sendo um importante pilar da cultura e da identidade da cidade. A devoção a São Bernardo, um santo importante para a Igreja Católica, era natural para a época.
+Espiritualidade e trabalho: A cidade se desenvolveu inicialmente como um centro industrial, com uma forte presença de operários. São Bernardo é considerado o patrono dos trabalhadores, o que se encaixava na realidade da época.
+Quem foi São Bernardo?
+São Bernardo foi um monge, abade e teólogo que viveu no século XI e início do século XII. Ele é conhecido por sua intensa atividade de evangelização, por ter fundado a Ordem dos Cistercienses e por sua influência na história da Igreja Católica.
+Sua vida: Nascido em 1090, na região de Sabóia, na França, foi um dos líderes religiosos mais importantes do seu tempo. Ele fundou o mosteiro de Clairvaux, que se tornou um centro de espiritualidade e reforma monástica.
+Sua influência: Ele teve grande influência na história da Igreja, lutando contra heresias, defendendo a reforma da Igreja, e combatendo o cisma entre o Papa e o Imperador. Sua obra teológica e litúrgica influenciou profundamente a Igreja Católica.
+Sua devoção: É invocado como protetor dos trabalhadores, das pessoas em perigo, dos enfermos e dos viajantes.
+A escolha de São Bernardo como patrono de São Bernardo do Campo é, portanto, um reflexo da cultura religiosa da época da fundação da cidade e da devoção ao santo. Ele representa um símbolo de fé, trabalho e esperança para a comunidade.
+
+
+=======================================
+
+
+PERGUNTA: If we lay 5 shirts out in the sun and it takes 4 hours to dry, how long would 20
+shirts take to dry? Answer immediately giving the number and nothing else.
+
+RESPOSTAS:
+* qwen: 8
+* llama: 16 hours.
+* gemini: 4
+
+
+=======================================
+
+
+PERGUNTA: Q: The odd numbers in this group add up to an even number: 15, 32, 5, 13,
+82, 7, 1. A:
+
+RESPOSTAS:
+* qwen: That's a clever statement! Let's analyze the odd numbers in the group: 15, 5, 13, 7, and 1.
+Add them up: 15 + 5 + 13 + 7 + 1 = 41
+And indeed, 41 is an odd number! The statement is actually incorrect. The odd numbers in this group add up to an odd number, not an even number.
+
+* llama: 59
+
+* gemini: The statement is true.
+Here's why:
+Odd numbers in the group: 15, 5, 13, 7, 1
+Sum of the odd numbers: 15 + 5 + 13 + 7 + 1 = 41
+41 is an even number.
+Therefore, the odd numbers in the group add up to an even number.
+
+
+=======================================
+
+
+REFLETINDO:
+
+• Qual modelo teve a melhor performance?
+	- o Llama GroQ teve uma performance melhor na análise de textos, mas isso pode variar a depender da função dada à LLM.
+• Quais são os pontos fortes e fracos de cada modelo?
+	- Gemini -> mais direto, rapido , bom com reconhecimento imagens e compreensão digital. Não é bom para muitas complexidades, calculos matematicos, ou raciocínio espacial(localidade).
+	- Llama -> mais amplo, tem uma visão mais profunda do mundo, eficiente em analise de textos e realização de tarefas complexas/cientificas que exijam analise profunda do texto. Por outro lado é ruim para informações mais diretas e zero-shot/few-shot.
+	- Qwen -> mais direto, utilizado como assistente, gerenciamento de relatorios, pesquisas especificas. Seu ponto negativo é limitação com analise e entendimento mais profundo de dados.
+• Quais diferenças notáveis você observou entre as respostas em português e
+inglês?
+	- acesso de recursos, cultura é um ponto que pode influenciar na resposta, semantica, palavras e expressões únicas de cada linguagem.
+
