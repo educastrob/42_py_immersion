@@ -1,23 +1,30 @@
 import requests
-from bs4 import BeautifulSoup
+import json
+import google.generativeai as genai
 
-url = "https://www.linkedin.com/jobs/search?keywords=python%20developer&location=São%20Paulo"
-headers = {'User-Agent': 'Mozilla/5.0'}
-response = requests.get(url, headers=headers)
+# API Keys
+genai.configure(api_key='AIzaSyA5yR5xbnzSbXWlkAKS_PaXKB6i44c6_6I')
 
-# Verificar se a requisição foi bem-sucedida
-if response.status_code == 200:
-    soup = BeautifulSoup(response.content, 'html.parser')
+def gemini_prompt():
+    model = genai.GenerativeModel("gemini-1.5-flash")
 
-    # Identifica os elementos HTML que contêm as informações das vagas
-    jobs = soup.find_all('div', class_='base-card')
+    with open("job_description.txt", "r") as f:
+        job_description = f.read()
 
-    # Abrir o arquivo para escrita
-    with open('job_description.txt', 'w', encoding='utf-8') as file:
-        for job in jobs:
-            # Escrever o conteúdo HTML do base-card no arquivo
-            file.write(job.prettify() + '\n\n')
+    prompt = f"Com base na seguinte descrição de vaga: {job_description}, elabore uma descrição concisa e precisa com base na primeira vaga de Engenharia de Software com mais informações que encontrar. Inclua informações sobre as ferramentas e habilidades técnicas requisitadas (exemplo: Python, Java, etc.). Formato da resposta:\n Name of role: [cargo]\nWorking hours: [horário]\nCountry: [país]\nTech skills: [habilidades técnicas]"
 
-    print("Conteúdo dos base-cards copiado para job_description.txt")
-else:
-    print(f"Erro na requisição: {response.status_code}")
+    response = model.generate_content(
+        prompt,
+        generation_config = genai.GenerationConfig(
+            max_output_tokens = 300,
+            temperature = 1.0,
+        ),
+    )
+    print(response.text)
+
+
+def main():
+    gemini_prompt()
+
+if __name__ == '__main__':
+    main()
