@@ -4,17 +4,19 @@ import google.generativeai as genai
 
 # API Key
 genai.configure(api_key='AIzaSyA5yR5xbnzSbXWlkAKS_PaXKB6i44c6_6I')
-
-
 model = genai.GenerativeModel("gemini-1.5-flash")
 
+with open("job_description.txt", "r") as f:
+    job_description = f.read()
+
+prompt = f"Com base na seguinte descrição de vaga: {job_description}, elabore uma descrição concisa e precisa com base na primeira vaga de Engenharia de Software com mais informações que encontrar. Inclua informações sobre as ferramentas e habilidades técnicas requisitadas (exemplo: Python, Java, etc.). Formato da resposta:\n Name of role: [cargo]\nWorking hours: [horário]\nCountry: [país]\nTech skills: [habilidades técnicas(adicione mais ferramentas relacionadas nessa parte)]"
+
 response = model.generate_content(
-    "Escreva uma descrição precisa e breve de vaga real para um(a) [Pleno Software Engineer (BackEnd)] em uma empresa de [Tecnologia] em [Brasil]. Inclua informações sobre as ferramentas técnicas (Python, Java, etc.). Formato da resposta:\n Name of role: [cargo]\nWorking hours: [horário]\nCountry: [país]\nTech skills: [habilidades técnicas]",
+    prompt,
     generation_config = genai.GenerationConfig(
         max_output_tokens = 300,
-        temperature = 0.3,
+        temperature = 1.0,
     ),
 )
 
-with open("job_description.txt", "w") as f:
-    f.write(response.text)
+print(response.text)
