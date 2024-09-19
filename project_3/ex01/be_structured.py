@@ -18,7 +18,7 @@ def gemini_prompt(prompt):
     response = model.generate_content(
         prompt,
         generation_config=genai.GenerationConfig(
-            max_output_tokens=300,
+            max_output_tokens=1000,
             temperature=1.0,
         ),
     )

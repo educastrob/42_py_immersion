@@ -68,7 +68,7 @@ def call_llm(comments):
         </example>
         <example>
             <text>O código está bem organizado, mas acho que podemos simplificar algumas partes.</text>
-            <sentiment>Neutro</sentiment>
+            <sentiment>Positivo</sentiment>
         </example>
         <example>
             <text>Estou muito satisfeito com o progresso que fizemos até agora. Continuem assim!</text>
@@ -81,7 +81,7 @@ def call_llm(comments):
     </examples>
     """
     comments_xml = "\n".join([f"<text>{comment['text']}</text>" for comment in comments])
-    prompt = f"{examples}\n<analyze>\n{comments_xml}\n</analyze>"
+    prompt = f"Siga como os exemplos: {examples}\n<analyze>Agora analise os comentarios abaixo e os classifique como Positivo/Negativo/Neutro: \n{comments_xml}\n</analyze>"
     try:
         print("Consultando Gemini ...")
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -103,8 +103,6 @@ def parse_llm_response(response):
             sentiments.append("Negativo")
         elif "Neutro" in line:
             sentiments.append("Neutro")
-        else:
-            sentiments.append("Indeterminado")
     return sentiments
 
 def analyze_sentiments(comments):
