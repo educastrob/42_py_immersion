@@ -1,11 +1,10 @@
-import json
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
 users = {
-	"user1": {"user": "eduardo", "age": 20, "admin": False},
-	"user2": {"user": "daniela", "age": 33, "admin": False},
+	"user1": {"username": "eduardo", "age": 20, "admin": False},
+	"user2": {"username": "daniela", "age": 33, "admin": False},
 }
 
 @app.route('/users/<username>', methods=["PUT"])
@@ -23,4 +22,3 @@ def secret():
 
 if __name__ == '__main__':
 	app.run(debug=True)
-
