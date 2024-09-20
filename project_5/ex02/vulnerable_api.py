@@ -8,7 +8,7 @@ users = {
 	"user2": {"username": "daniela", "age": 33, "admin": False},
 }
 
-@app.route('/users/<username>', methods=["GET"])
+@app.route('/users/<username>', methods=["PUT"])
 def update_user(username):
 	user = users.get(username)
 	if user:
